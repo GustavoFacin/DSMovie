@@ -5,7 +5,9 @@
     --text-gray: #4a4a4a;
     --color-primary: #4D41C0;
     --white: #FFFFFF;
-    --text-light-gray: #aaa
+    --text-light-gray: #aaa;
+    --star-yellow: #FFBB3A;
+        
 
 }
 
@@ -75,17 +77,42 @@ a, a:hover {
 
 .DSMovie-card-description {
     background-color: var(--white);
-    padding: 10px 0 20px 0;
+    padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     border-radius: 0 0 8px 8px;
+    height: 220px;
 }
 
 .DSMovie-card-description h3 {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 25px;
+}
+
+.DSMovie-card-description-botton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DSMovie-card-description-botton h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star-yellow);    
+}
+
+.DSMovie-card-description-botton img {
+    width: 22px;
+}
+
+.DSMovie-card-description-botton p {
+    color: var(--text-light-gray);
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
 
 .DSMovie-btn, .DSMovie-btn:hover {
@@ -105,7 +132,6 @@ a, a:hover {
 .DSMovie-form-container {
     padding: 40px 0;
     max-width: 480px;
-
 }
 
 .DSMovie-form-description {
@@ -125,7 +151,6 @@ a, a:hover {
 
 .DSMovie-form {
     width: 100%;
-    
 }
 
 .DSMovie-form-group {
