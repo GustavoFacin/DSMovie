@@ -63,7 +63,7 @@ a, a:hover {
 }
 
 #DSMovie-card-list {
-    padding: 40px 0;
+    padding: 40px 10px;
 }
 
 .DSMovie-card {
@@ -83,13 +83,15 @@ a, a:hover {
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
-    height: 220px;
+    height: 190px;
 }
 
 .DSMovie-card-description h3 {
     font-size: 14px;
     font-weight: 700;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    
 }
 
 .DSMovie-card-description-botton {
@@ -116,7 +118,7 @@ a, a:hover {
 }
 
 .DSMovie-btn, .DSMovie-btn:hover {
-    width: 180px;
+    width: 144px;
     height: 40px;
     background-color: var(--color-primary);
     color: var(--white);
